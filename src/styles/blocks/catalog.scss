@@ -2,9 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
   max-width: $catalogMaxWidth;
-  gap: 48px;
-
-  &__product-card {
-    margin-bottom: 2px;
-  }
+  column-gap: 48px;
+  row-gap: 50px;
 }
