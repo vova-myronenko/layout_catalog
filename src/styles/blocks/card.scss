@@ -9,9 +9,7 @@
     height: 134px;
     width: 160px;
     margin: 15px auto 45px;
-    transition-duration: 400ms;
-    transition-property: transform;
-    transition-timing-function: linear;
+    transition: transform 400ms linear;
 
     &:hover {
       transform: scale(1.2);
